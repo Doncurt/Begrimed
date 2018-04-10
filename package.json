@@ -1,0 +1,23 @@
+{
+  "name": "rotten",
+  "version": "1.0.0",
+  "description": "Begrimed tonic",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doncurt/Begrimed.git"
+  },
+  "keywords": [
+    "rap",
+    "lyrics"
+  ],
+  "author": "Donovan Adams & Matthew Harrilal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doncurt/Begrimed/issues"
+  },
+  "homepage": "https://github.com/Doncurt/Begrimed#readme"
+}
