@@ -1,0 +1,15 @@
+<a href='/'><p>Go Back</p></a>
+<!-- you must use song. something since this is an instace of said song -->
+<h1>{{song.title}}</h2>
+<h2>{{song.artist}}</h2>
+<h2>{{song.origLyr}}</h2>
+<h2>{{song.trans}}</h2>
+<!-- Edit link  will use a put request  on the sons-edit page-->
+<p><a href="/songs/{{song._id}}/edit">Edit</a></p>
+<!-- this had to be submitted as a post request form due to html formsonly dong get and post.
+the action points to the song id that we want to delete and the controller will handle the logic
+ -->
+<p><form method='POST' action='/songs/{{song._id}}?_method=DELETE'>
+  <!-- the button type is a submit to the site knows that it is geting rid of this -->
+  <button type='submit'> DELETE</button>
+</form>

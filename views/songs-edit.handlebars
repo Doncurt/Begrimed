@@ -1,0 +1,32 @@
+<!-- performs a post method on the song based on its id and replaces the text that is defined here -->
+<form method="POST" action="/songs/{{song._id}}?_method=PUT">
+  <fieldset>
+     <legend>New Review</legend>
+     <!-- TITLE -->
+     <p>
+       <label for="title">Title</label><br>
+       <input type="text" name="title" />
+     </p>
+     <!-- ARTIST INFO -->
+     <p>
+       <label for="artist">Artist Name</label><br>
+       <input type="text" name="artist" />
+     </p>
+     <!-- ORIGINAL lYRICS INFO-->
+     <p>
+       <label for="origLyr">Original Lyrics</label><br>
+       <input type="text" name="origLyr" />
+     </p>
+     <!-- TRANSLATED lYRICS INFO-->
+     <p>
+       <label for="trans">Translated Lyrics</label><br>
+       <input type="text" name="trans"/>
+     </p>
+   </fieldset>
+
+   <!-- BUTTON -->
+   <p>
+     <button type="submit">Save Song</button>
+   </p>
+
+ </form>
